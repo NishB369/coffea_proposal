@@ -279,9 +279,9 @@ h3{
     }
 
     .vid_container {
-        width: 90%;
-        max-width: fit-content;
-        height: 200px;
+        width: 100%;
+        /* max-width: fit-content; */
+        height: 100%;
     }
 
     .arrow_container {
@@ -292,5 +292,35 @@ h3{
     .arrow_container img {
         width: 40px;
         height: 40px;
+    }
+
+
+    .heading_container h3 {
+        font-size: 20px;
+    }
+
+    .heading_container h2 {
+        font-size: 25px;
+    }
+
+    .posts_section .heading_container h1 {
+        font-size: 20px;
+    }
+
+
+    .posts_section .heading_container h1 {
+        font-size: 25px;
+    }
+
+    .hero_section .heading_container h1 {
+        font-size: 25px;
+    }
+
+    .reel_heading h1{
+        font-size: 30px;
+    }
+
+    .carousel_container{
+        width: 1500%;
     }
 }
